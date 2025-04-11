@@ -1,18 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Inknut_Antiqua } from 'next/font/google';
-import { Roboto } from 'next/font/google';
+
 import "./globals.css";
 
-const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400', '700'], // kamu bisa tambahkan '300', '500', '900' sesuai kebutuhan
-});
-
-const inknut = Inknut_Antiqua({
-  subsets: ['latin'],
-  weight: ['400', '700'], // pilih sesuai kebutuhan
-});
 
 
 const geistSans = Geist({
