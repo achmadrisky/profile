@@ -7,7 +7,7 @@ import ThemeToggle from './components/ThemeToggle';
 export default function Home() {
   return (
     <>
-      <div id="home" className="navbar bg-base-300 shadow-md px-6 top-0 z-50 font-mono sticky">
+      <div  className="navbar bg-base-300 shadow-md px-6 top-0 z-50 font-mono sticky" id="home">
         {/* Start: Logo & Mobile Menu */}
         <div className="navbar-start text-base-content">
           <div className="dropdown">
