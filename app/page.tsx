@@ -65,7 +65,7 @@ export default function Home() {
         <div className="hero-content flex flex-col items-center text-center">
           <div className="avatar mb-7">
             <div className="w-60 rounded-full ">
-              <img src="/images/foto.png" alt="Foto Profil" />
+              <img src="/images/foto.png" alt="photo" />
             </div>
           </div>
 
