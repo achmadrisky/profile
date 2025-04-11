@@ -4,7 +4,7 @@ export default function AboutSection() {
         <div className="hero font-mono bg-gray-400 min-h-120 text-gray-500" id="about">
           <div className="hero-content flex-col lg:flex-row">
             <img
-              src="/images/minerva.jpg"
+              src="./images/minerva.jpg"
               alt="photo"
               className="w-60 sm:w-70 lg:w-76 rounded-2xl bg-base-100 mb-6 lg:mb-0 mr-0 lg:mr-10 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
             />

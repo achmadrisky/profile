@@ -10,7 +10,7 @@ export default function Services() {
             <div className="card w-72 bg-blue-500 text-white shadow-md rounded-2xl transform transition duration-300 ease-in-out hover:scale-105">
               <figure className="px-8 pt-8">
                 <img
-                  src="programer.svg" // ganti sesuai path kamu
+                  src="./programer.svg" // ganti sesuai path kamu
                   alt="UI/UXDesign"
                   className="w-20 h-20"
                 />
@@ -28,7 +28,7 @@ export default function Services() {
             <div className="card w-72 bg-yellow-400 text-gray-900 shadow-md rounded-2xl transform transition duration-300 ease-in-out hover:scale-105">
               <figure className="px-8 pt-8">
                 <img
-                  src="web.svg" // ganti sesuai path kamu
+                  src="./web.svg" // ganti sesuai path kamu
                   alt="Web"
                   className="w-20 h-20"
                 />
@@ -46,7 +46,7 @@ export default function Services() {
             <div className="card w-72 bg-rose-400 text-white shadow-md rounded-2xl transform transition duration-300 ease-in-out hover:scale-105">
               <figure className="px-8 pt-8">
                 <img
-                  src="camera.svg" // ganti sesuai path kamu
+                  src="./camera.svg" // ganti sesuai path kamu
                   alt="Photography"
                   className="w-20 h-20"
                 />
