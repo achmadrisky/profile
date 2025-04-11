@@ -54,7 +54,7 @@ export default function Services() {
               <div className="card-body items-center text-center">
                 <h2 className="card-title text-white">Photography</h2>
                 <p className="text-sm">
-                  In Photography i don't have camera professional but i have Leica camera in my phone. 
+                  In Photography i dont have camera professional but i have Leica camera in my phone. 
                 </p>
               </div>
             </div>
