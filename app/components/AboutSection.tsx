@@ -1,4 +1,3 @@
-
 export default function AboutSection() {
     return (
       <>
@@ -6,6 +5,7 @@ export default function AboutSection() {
           <div className="hero-content flex-col lg:flex-row">
             <img
               src="/images/minerva.jpg"
+              alt="minerva photo"
               className="w-60 sm:w-70 lg:w-76 rounded-2xl bg-base-100 mb-6 lg:mb-0 mr-0 lg:mr-10 transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
             />
 
@@ -14,7 +14,7 @@ export default function AboutSection() {
               <div className="flex-1 order-1 lg:order-none">
                 <h1 className="text-4xl font-bold text-black mb-4 ">About Me</h1>
                 <p className="text-gray-500 mb-6">
-                  I am Achmad Risky, a content creator and web developer from Indonesia. I have rich experience in website design, photoshop, video editing, and customization. Also, i am good at Photography.
+                  My name is Achmad Risky a content creator and web developer from Indonesia I have rich experience in website design, photoshop, video editing, and customization. Also i am good at Photography.
                 </p>
 
                 {/* Progress Bars - akan tampil di sini saat HP */}
