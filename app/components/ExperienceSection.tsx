@@ -58,6 +58,5 @@ export default function Experience(){
                 </ul>
             </div>
         </>
-
     );
 }

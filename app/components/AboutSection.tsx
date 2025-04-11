@@ -55,7 +55,6 @@ export default function AboutSection() {
                   </div>
                   <progress className="progress progress-primary w-full" value="50" max="100"></progress>
                 </div>
-
                 {/* UI/UX Design */}
                 <div className="w-56">
                   <div className="flex justify-between text-sm font-semibold mb-1">

@@ -44,7 +44,6 @@ export default function Home() {
             MyPersonal <span className="text-pink-500">Website</span>
           </a>
         </div>
-
         {/* Center: Desktop Menu */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-gray-600 font-medium">
@@ -53,14 +52,11 @@ export default function Home() {
             <li><a href="#experience" className="hover:text-pink-500">Experience</a></li>
           </ul>
         </div>
-
         {/* End: CTA Button */}
         <div className="navbar-end mt-3">
           <ThemeToggle/>
         </div>
       </div>
-
-     
       <div className="hero bg-base-200 min-h-screen font-mono text-base-content">
         <div className="hero-content flex flex-col items-center text-center">
           <div className="avatar mb-7">
@@ -68,13 +64,11 @@ export default function Home() {
               <img src="/images/foto.png" alt="photo" />
             </div>
           </div>
-
           <div>
             <h1 className="font-bold text-4xl">Achmad Risky</h1>
             <p className="py-2 max-w-xl text-yellow-400">
               Find Me On Social Media
             </p>
-            
             <div>
               <ul className="menu menu-horizontal bg-base-200 rounded-box ps-2 ">
                 <li>
@@ -122,21 +116,16 @@ export default function Home() {
           </div>
 
         </div>
-      </div>
-      
+      </div>   
       <AboutSection/>
       <ServicesSection/>
       <Experience/>
-
       <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 ">
         <aside className="grid-flow-col items-center">
           <img className="w-5 rounded-full" src="/images/minerva.jpg" alt="" />
           <p>Achmad Risky © {new Date().getFullYear()} - All right reserved</p>
         </aside>
-      </footer>
-                
-    </>
-
-   
+      </footer>                
+    </>   
   );
 }

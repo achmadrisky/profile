@@ -11,7 +11,7 @@ export default function Services() {
               <figure className="px-8 pt-8">
                 <img
                   src="programer.svg" // ganti sesuai path kamu
-                  alt="UI/UX Design"
+                  alt="UI/UXDesign"
                   className="w-20 h-20"
                 />
               </figure>
@@ -23,14 +23,13 @@ export default function Services() {
               </div>
             </div>
           </li>
-  
           {/* Web Development */}
           <li>
             <div className="card w-72 bg-yellow-400 text-gray-900 shadow-md rounded-2xl transform transition duration-300 ease-in-out hover:scale-105">
               <figure className="px-8 pt-8">
                 <img
                   src="web.svg" // ganti sesuai path kamu
-                  alt="Web Development"
+                  alt="Web"
                   className="w-20 h-20"
                 />
               </figure>
@@ -42,7 +41,6 @@ export default function Services() {
               </div>
             </div>
           </li>
-  
           {/* Photography */}
           <li>
             <div className="card w-72 bg-rose-400 text-white shadow-md rounded-2xl transform transition duration-300 ease-in-out hover:scale-105">
